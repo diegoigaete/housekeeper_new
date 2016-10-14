@@ -47,7 +47,7 @@ button{
 }
 /*--- end reset code ---*/
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Libre Franklin', sans-serif;
 }
 /*-- Navbar --*/
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -59,7 +59,7 @@ body {
 	font-weight: 300;
 }
 .navbar-default {
-	background-color:rgba(60, 118, 61, 0.4);
+	background-color:rgb(0, 181, 226);
     border-color:transparent;
 }
 .navbar {
@@ -86,7 +86,7 @@ body {
 /*-- banner --*/
 .banner {
 	margin:0;
-	padding:0;
+	padding:50px 0px 0px 0px;
 }
 /*-- /Banner --*/
 /*-- About --*/
@@ -104,11 +104,11 @@ section.about-us h3 {
 	font-family: 'Poiret One', cursive;
     font-size:3em;
 	padding-bottom: 50px;
-	color:#fff;
+	color:black;
 }
 section.about-us p {
 	font-size: 19px;
-    color: #fff;
+    color: black;
     font-weight: 300;
 	line-height: 1.7em;
 }
@@ -117,7 +117,7 @@ section.about-us p {
 	font-family: 'Poiret One', cursive;
     border: solid 2px #fff;
     font-size: 20px;
-    color: #fff;
+    color: black;
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -125,7 +125,7 @@ section.about-us p {
 .btn-outline:focus,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #rgb(0, 181, 226);
     background: #fff;
 }
 /*-- /about --*/
@@ -159,29 +159,30 @@ section.about-us p {
 	top: 0;
 	left: 0;
 	padding: 20px;
-	background: rgba(44, 78, 44, 0.21);
-    color:#4D8A00;
+	/*background: light grey;*/
+    color:black;
+    font-size: 17px;
 }
 .grid figcaption h3 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Libre Franklin', sans-serif;
 	margin: 0;
 	padding: 0;
-	font-size:2em;
-	color: #fff;
+	font-size:1.5em;
+	color: rgb(151, 215, 0);
 }
 .grid figcaption span:before {
 	content: 'by ';
 }
 .grid figcaption a {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Libre Franklin', sans-serif;
 	text-align: center;
-	font-size:17px;
+	font-size:15px;
 	padding: 5px 10px;
 	border-radius: 2px;
 	display: inline-block;
-	background:#579400;
+	background:rgb(151, 215, 0);
 	text-decoration:none;
-	color: #fff;
+	color: white;
 }
 /* Caption Style 5 */
 .cs-style figure img {
@@ -228,72 +229,72 @@ section.about-us p {
 /*-- /image-hover-style --*/
 .content-section-a {
     padding: 50px 0;
-    background:url(../images/leaf.jpg) no-repeat;
+    /*background:url(../images/leaf.jpg) no-repeat;*/
 	background-attachment:fixed;
 	background-position:center;
 	background-size:100% 100%;
 }
 .content-section-b {
     padding: 50px 0;
-	background:url(../images/rain.jpg) no-repeat;
+	/*background:url(../images/rain.jpg) no-repeat;*/
 	background-attachment:fixed;
 	background-position:center;
 	background-size:100% 100%;
 } 
 .content-section-b .grid figcaption {
-	color:#172900;
+	color:black;
 }
 .content-section-b .grid figcaption a {
-	background: #345603;
+	background: rgb(151, 215, 0);
 }
 h3.section-heading {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Libre Franklin', sans-serif;
 	font-size:2.5em;
-	color:rgb(113, 142, 4);
+	color:rgb(0, 181, 226);
 }
 p.lead {
-	color:rgb(113, 142, 4);
+	color:black;
 	font-size: 19px;
     line-height: 1.7em;
 }
 .content-section-b h3.section-heading {
-	color:#fff;
+	color:rgb(0, 181, 226);
 }
 .content-section-b p.lead {
-	color:#fff;
+	color:black;
 }
 .section-heading-spacer {
     float: left;
     width: 200px;
-    border-top: 1px solid rgba(0,0,0,0.3);
+    border-top: 1px solid black;
 }
 .content-section-b .section-heading-spacer {
-	border-top: 1px solid #fff;
+	border-top: 1px solid black;
 }
 /*-- /after-about --*/
 /* Services */
 section.our-services {
-	background:url(../images/blur.jpg) no-repeat;
+	/*background:url(../images/blur.jpg) no-repeat;*/
 	background-attachment:fixed;
 	background-position:center;
 	background-size:100% 100%;
 }
 section.our-services h3.text-center {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Libre Franklin', sans-serif;
 	font-size:3em;
 	padding-bottom: 30px;
-	color:#fff;
+	color:rgb(0, 181, 226);
 }
 section.our-services h4 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Libre Franklin', sans-serif;
 	padding:20px 0;
 	font-size: 22px;
-	color:#fff;
+	color:rgb(151, 215, 0);
 }
 section.our-services p {
 	padding:10px 0 30px;
 	font-size: 16px;
-	color:#fff;
+	color:black;
 }
 .ch-grid {
 	margin: 20px 0 0 0;
@@ -621,14 +622,14 @@ footer {
     
 }
 footer h4 {
-	font-family: 'Poiret One', cursive;
-	font-size:25px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size:35px;
 	padding-bottom:35px;
 	color: #fff;
 }
 footer p {
-	color: #fff;
-    font-size: 14px;
+	color: white;
+    font-size: 20px;
     line-height: 30px;
     font-weight: 200;
 }
@@ -638,18 +639,23 @@ footer a {
 }
 footer a:hover {
 	text-decoration:none;
-	color:red;
+	color:rgb(0, 181, 226);
 }
 footer .footer-above {
     padding-top: 50px;
-    background-color:#475025;
+    background-color:rgb(0, 181, 226);
 }
 footer .footer-col {
     margin-bottom: 50px;
 }
 footer .footer-below {
     padding: 25px 0;
-    background-color:rgb(53, 58, 34);
+    background-color:white;
+}
+footer .footer-below p{
+    font-size: 8px;
+    color:black;
+    background-color:white;
 }
 .btn-social {
     display: inline-block;
