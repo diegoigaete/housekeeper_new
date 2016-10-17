@@ -3,7 +3,7 @@
 	height: 100%;
 	border-radius: 50%;
 	position: relative;
-	box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	box-shadow: 0 1px 2px rgb(151, 215, 0);
 	cursor: default;
 }
 .ch-info-wrap, 
@@ -43,7 +43,7 @@
 }
 .ch-info .ch-info-back {
 	opacity: 0;
-	background:rgb(66, 119, 152);
+	background:rgb(0, 181, 226);
 	pointer-events: none;
 	-webkit-transform: scale(1.5);
 	-moz-transform: scale(1.5);
@@ -57,16 +57,16 @@
 	transition: all 0.4s ease-in-out 0.2s;
 }
 .ch-img-1 { 
-	background-image: url(../images/service1.jpg);
+	background-image: url(../images/hk_services_1.jpg);
 }
 .ch-img-2 { 
-	background-image: url(../images/service2.jpg);
+	background-image: url(../images/hk_services_2.jpg);
 }
 .ch-img-3 { 
-	background-image: url(../images/service3.jpg);
+	background-image: url(../images/hk_services_3.jpg);
 }
 .ch-img-4 { 
-	background-image: url(../images/service4.jpg);
+	background-image: url(../images/hk_services_4.jpg);
 }
 .ch-info h5 {
 	color: #fff;
@@ -76,7 +76,7 @@
 	margin: 0 15px;
 	padding: 40px 0 0 0;
 	height: 80px;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Libre Franklin', sans-serif;
 	text-shadow: 
 		0 0 1px #fff, 
 		0 1px 2px rgba(0,0,0,0.3);
