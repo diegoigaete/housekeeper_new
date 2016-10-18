@@ -10,7 +10,7 @@
 
 #content, #content #slider .mainImages, #content #slider .mainImages .mi__img, #content #slider .backgroundImages, #content #slider .backgroundImages .bi__imgCont, #content #slider .backgroundImages .bi__imgCont .bi__imgCont-img, #content #slider .navigation ul li a {
   width: 100%;
-  height: 100%;
+  height: 90%;
 }
 
 #content #slider .navigation ul, #content #slider .navigation ul li {

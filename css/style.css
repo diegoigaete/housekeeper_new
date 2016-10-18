@@ -83,28 +83,22 @@ body {
     background-color:#00A902;
 }	
 /*-- /Navbar --*/
-/*-- banner --*/
-.banner {
-	margin:0;
-	padding:50px;
-}
-/*-- /Banner --*/
 /*-- About --*/
 section {
 	padding:100px 0;
 }
 section.about-us {
-	background:url(../images/fog.jpg) no-repeat;
+	/*background:url(../images/fog.jpg) no-repeat;*/
 	background-attachment:fixed;
 	background-position:center;
 	background-size:100% 100%;
 }
 section.about-us h3 {
     margin: 0;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Libre Franklin', sans-serif;
     font-size:3em;
 	padding-bottom: 50px;
-	color:black;
+	color:rgb(0, 181, 226);
 }
 section.about-us p {
 	font-size: 19px;
@@ -114,8 +108,8 @@ section.about-us p {
 }
 .btn-outline {
     margin-top: 15px;
-	font-family: 'Poiret One', cursive;
-    border: solid 2px #fff;
+	font-family: 'Libre Franklin', sans-serif;
+    border: solid 2px rgb(151, 215, 0);
     font-size: 20px;
     color: black;
     background: 0 0;
@@ -124,8 +118,8 @@ section.about-us p {
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline.active {
-    border: solid 2px #fff;
-    color: #rgb(0, 181, 226);
+    border: solid 2px rgb(151, 215, 0);
+    color: rgb(0, 181, 226);
     background: #fff;
 }
 /*-- /about --*/
@@ -394,7 +388,7 @@ section#portfolio h3.text-center {
 .portfolio-modal .modal-content h3 {
     margin: 0;
     font-size: 3em;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Libre Franklin', sans-serif;
 	color: #fff;
 }
 .portfolio-modal .modal-content img {
@@ -402,7 +396,7 @@ section#portfolio h3.text-center {
 	width:100%;
 }
 .portfolio-modal .modal-content p {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Libre Franklin', sans-serif;
 	font-size:17px;
 	padding:30px 0;
 	color: #fff;
@@ -546,13 +540,13 @@ section.our-blog a {
 /*-- /Blog --*/
 /*-- contact-us --*/
 section.contact-us {
-	background-color:#e9ffe9;
+	background-color:white;
 }
 section.contact-us h3.text-center {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Libre Franklin', sans-serif;
 	font-size:3em;
 	padding-bottom:10px;
-	color:#475025;
+	color:rgb(0, 181, 226);
 }
 section.contact-us p.text-center { 
 	font-size:17px;
@@ -560,16 +554,16 @@ section.contact-us p.text-center {
 	color:#999;
 }
 section.contact-us h4 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Libre Franklin', sans-serif;
     font-size: 20px;
     padding: 20px 0;
     font-weight: bold;
-    color: #475025;
+    color: black;
 }
 section.contact-us p {
 	font-size:17px;
 	padding:10px 0;
-	color:#999;
+	color:rgb(0, 181, 226);
 }
 section.contact-us a {
 	color:#999;
@@ -583,7 +577,7 @@ section.contact-us .col-md-8.slideanim.slide iframe {
 /*-- /Contact-us --*/
 /*-- Contact-form --*/
 section.contact-form {
-	background:url(../images/green.jpg) no-repeat;
+	/*background:url(../images/green.jpg) no-repeat;*/
 	background-attachment:fixed;
 	background-position:center;
 	background-size:100% 100%;
@@ -593,30 +587,30 @@ section.contact-form {
 	-ms-background-size:100% 100%;
 }
 section.contact-form h3.text-center {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Libre Franklin', sans-serif;
 	font-size:3em;
 	padding-bottom:35px;
-	color:#fff;
+	color:rgb(0, 181, 226);
 }
 section.contact-form p.text-center { 
 	font-size:17px;
 	padding:0 0 40px;
-	color:#fff;
+	color:black;
 }
 section.contact-form label{
 	font-size:20px;
 	font-weight:400;
 	padding-bottom:10px;
-	color:#fff;
+	color:black;
 }
 section.contact-form .form-control { 
-	background-color: rgba(255, 255, 255, 0.18);
-	border: 1px solid transparent;
+	background-color: rgba(0, 0, 0, 0.18);
+	border: 2px solid rgb(151, 215, 0);
     border-radius: 2px;
 	height: 50px;
     padding: 16px 12px;
     font-size: 19px;
-	color:#fff;
+	color:rgb(0, 181, 226);
 }
 section.contact-form  textarea.form-control {
     height: auto!important;
@@ -803,7 +797,7 @@ footer .footer-below p{
 /*-- /inner pages styling --*/	
 /*-- about page --*/
 section.team-w3ls {
-	background:url(../images/leaf.jpg) no-repeat;
+	/*background:url(../images/leaf.jpg) no-repeat;*/
 	background-attachment:fixed;
 	background-position:center;
 	background-size:100% 100%;
@@ -813,10 +807,10 @@ section.team-w3ls {
 	-ms-background-size:100% 100%;
 }
 section.team-w3ls h3.text-center {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Libre Franklin', sans-serif;
 	font-size:3em;
 	padding-bottom:10px;
-	color:#475025;
+	color:rgb(0, 181, 226);
 }
 section.team-w3ls p.text-center { 
 	font-size:17px;
@@ -824,7 +818,7 @@ section.team-w3ls p.text-center {
 	color:#475025;
 }
 section.team-w3ls h4 {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Libre Franklin', sans-serif;
     padding: 20px 0;
     font-size: 22px;
 	color:#475025;
