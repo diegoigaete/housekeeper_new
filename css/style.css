@@ -111,7 +111,7 @@ section.about-us p {
 	font-family: 'Libre Franklin', sans-serif;
     border: solid 2px rgb(151, 215, 0);
     font-size: 20px;
-    color: black;
+    color: rgb(151, 215, 0);
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -154,7 +154,7 @@ section.about-us p {
 	left: 0;
 	padding: 20px;
 	/*background: light grey;*/
-    color:black;
+    color:rgb(0, 181, 226);
     font-size: 17px;
 }
 .grid figcaption h3 {
@@ -162,7 +162,7 @@ section.about-us p {
 	margin: 0;
 	padding: 0;
 	font-size:1.5em;
-	color: rgb(151, 215, 0);
+	color: rgb(0, 181, 226);
 }
 .grid figcaption span:before {
 	content: 'by ';

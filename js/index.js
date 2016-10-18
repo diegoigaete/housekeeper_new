@@ -151,7 +151,7 @@
 			var bgImageSrc = obj.src.split('.jpg')[0];
 			var bi = this.backgroundImages.querySelector('.bi__imgCont .bi-' + obj.index);
 			
-			bi.style.background = 'url() no-repeat center top';
+			bi.style.background = 'url('+ bgImageSrc +'-blur.jpg) no-repeat center top';
 			bi.style.backgroundSize = 'cover';
 			this.backgroundImages.style.display = "none";
 

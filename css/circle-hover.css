@@ -3,7 +3,7 @@
 	height: 100%;
 	border-radius: 50%;
 	position: relative;
-	box-shadow: 0 1px 2px rgb(151, 215, 0);
+	box-shadow: 0 1px 2px rgba(0,0,0,0.1);
 	cursor: default;
 }
 .ch-info-wrap, 
@@ -43,7 +43,7 @@
 }
 .ch-info .ch-info-back {
 	opacity: 0;
-	background:rgb(0, 181, 226);
+	background:rgb(66, 119, 152);
 	pointer-events: none;
 	-webkit-transform: scale(1.5);
 	-moz-transform: scale(1.5);
@@ -76,7 +76,7 @@
 	margin: 0 15px;
 	padding: 40px 0 0 0;
 	height: 80px;
-	font-family: 'Libre Franklin', sans-serif;
+	font-family: 'Poiret One', cursive;
 	text-shadow: 
 		0 0 1px #fff, 
 		0 1px 2px rgba(0,0,0,0.3);
